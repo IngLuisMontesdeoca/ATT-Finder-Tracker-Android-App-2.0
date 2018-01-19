@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="title_activity_map">Mapa</string>
+    <string name="bar_title">Finder&amp;Tracker</string>
+    <string name="bar_subtitle">AT&amp;T ProbusinessApps</string>
+    <string name="action_settings">Configuración</string>
+    <string name="navigation_drawer_open">Abrir panel de navegacion</string>
+    <string name="navigation_drawer_close">Cerrar panel de navegacion</string>
+    <string name="search_hint">Buscar direccion..</string>
+    <string name="hint_search">Buscar..</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_register">Registrar nuevo usuario</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_recovery">¿Olvido su contraseña?</string>
+    <string name="error_invalid_email">El email ingresado es invalido</string>
+    <string name="error_invalid_password">La contraseña ingresada es muy corta</string>
+    <string name="error_incorrect_password">La contraseña ingresada es incorrecta</string>
+    <string name="error_user_doesnot_exists">Usuario no existente!</string>
+    <string name="error_sending_email">Se produjo un error al enviar el correo</string>
+    <string name="error_field_required">El campo es requerido</string>
+    <string name="permission_rationale">Es necesario habilitar permisos de contacto</string>
+    <string name="text_footer">AT&amp;T Intellectual Property Todos los derechos reservados. Las marcas de AT&amp;T son marcas registradas de AT&amp;T Intellectual Property II, L.P.</string>
+
+
+    <!--Strings registro de usuario-->
+    <string name="title_activity_register">Registro de nuevo usuario</string>
+    <string name="action_register_name">Nombre</string>
+    <string name="prompt_register_name">Nombre</string>
+    <string name="action_register_lastnamePat">Apellido Paterno</string>
+    <string name="prompt_register_lastnamePat">Apellido Paterno</string>
+    <string name="action_register_lastnameMat">Apellido Materno</string>
+    <string name="prompt_register_lastnameMat">Apellido Materno</string>
+    <string name="action_register_email">Correco Electrónico</string>
+    <string name="prompt_register_email">Correco Electrónico</string>
+    <string name="action_register_emailConfirm">Confirmar Correco Electrónico</string>
+    <string name="prompt_register_emailConfirm">Confirmar Correco Electrónico</string>
+    <string name="action_register_empresa">Empresa</string>
+    <string name="prompt_register_empresa">Empresa</string>
+    <string name="action_register_account">Cuenta</string>
+    <string name="prompt_register_account">Cuenta</string>
+    <string name="action_register_masterpin">Master PIN/Token</string>
+    <string name="prompt_register_masterpin">Master PIN/Token</string>
+    <string name="action_register_username">Nombre de Usuario</string>
+    <string name="prompt_register_username">Nombre de Usuario</string>
+    <string name="action_register_password">Contraseña</string>
+    <string name="prompt_register_password">Contraseña</string>
+    <string name="action_register_passwordConfirm">Confirmar Contraseña</string>
+    <string name="prompt_register_passwordConfirm">Confirmar Contraseña</string>
+    <string name="txt_btn_recovery">Enviar</string>
+    <string name="txt_btn_cancel">Cancelar</string>
+    <string name="txt_btn_clean">Limpiar</string>
+    <string name="Create">Crear</string>
+    <string name="txt_btn_send">Enviar</string>
+    <string name="title_activity_recovery">Recuperar contraseña</string>
+
+</resources>

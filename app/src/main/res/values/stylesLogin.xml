@@ -1,0 +1,62 @@
+
+<resources>
+    <!-- Estilos Registro de usuario -->
+    <style name="register_txt_info">
+
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:imeOptions">actionUnspecified</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="register_txt_email">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="register_field_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/color_main</item>
+        <item name="android:layout_margin">30dp</item>
+    </style>
+
+    <style name="register_btns" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="colorControlHighlight">@color/color_main_active</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_btn_dark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/color_main</item>
+        <item name="colorControlHighlight">@color/color_main_active</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="recuperacion_title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.6</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/title_activity_register</item>
+        <item name="android:textColor">@color/color_main_background</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

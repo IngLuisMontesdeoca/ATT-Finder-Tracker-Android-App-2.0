@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/toolbarMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingTop="80dp"
+        android:layout_gravity="right">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_location_light"
+        android:layout_gravity="right|center_vertical"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_layer_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lay_map"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|center_vertical"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_layer_ter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lay_ter"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|center_vertical"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_layer_sat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_layer_sat"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|center_vertical"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_layer_tr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_traffic"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|center_vertical"/>
+
+    <!--
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/action_layer_pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_transit_light"
+            android:layout_gravity="right|center_vertical"/>
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/action_layer_bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_layer_bike"
+            android:paddingTop="5dp"
+            android:layout_gravity="right|center_vertical"/>
+    -->
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:paddingTop="5dp"
+        android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>

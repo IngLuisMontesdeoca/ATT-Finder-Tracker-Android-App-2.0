@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--HEADER-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="@color/color_main"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/login_header"
+                android:layout_height="wrap_content"
+                android:text="AT&amp;T" />
+
+            <TextView
+                style="@style/login_sub_header"
+                android:layout_height="wrap_content"
+                android:text="Finder &amp; Tracker" />
+
+        </LinearLayout>
+
+
+        <!-- Login progress -->
+        <LinearLayout
+            android:id="@+id/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:background="@color/color_main_background"
+            android:visibility="gone"
+            android:gravity="center_horizontal|center_vertical">
+
+            <ProgressBar
+                android:id="@+id/login_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!--BODY - Login-->
+        <LinearLayout
+            android:id="@+id/body_login"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:background="@color/color_main_background"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/login_title"
+                        android:text="@string/title_activity_login" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/email"
+                            style="@style/login_txt_email" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/password"
+                            style="@style/login_txt_password"
+                            android:hint="@string/prompt_password"
+                            android:imeActionId="@+id/password"
+                            android:imeActionLabel="@string/action_sign_in_short"
+                            android:inputType="textPassword" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/action_sign_in"
+                            android:theme="@style/login_btn_dark" />
+
+                        <TextView
+                            android:id="@+id/btn_recovery"
+                            style="@style/login_txt_recuperar" />
+
+                        <LinearLayout style="@style/login_btn_registro_background">
+
+                            <Button
+                                android:id="@+id/login_btn_registro"
+                                style="@style/login_btn_registro"
+                                android:text="@string/action_register" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <!--FOOTER-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:background="@color/color_main">
+
+            <TextView
+                style="@style/login_footer"
+                android:text="@string/text_footer" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

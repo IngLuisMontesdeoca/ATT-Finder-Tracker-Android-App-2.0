@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+        </FrameLayout >
+        <FrameLayout
+            android:visibility="gone"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/streetView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+            STREET VIEW
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/layAddress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:visibility="visible"
+            android:orientation="horizontal">
+            <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:src="@drawable/ic_att"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_gravity="left|center_vertical"
+                android:background="#000000"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textSize="12dp"
+                android:textColor="#fff"/>
+            <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/action_streetView"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:src="@drawable/ic_streetview_dark"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<include
+    layout="@layout/app_bar_location_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<include
+    layout="@layout/app_bar_controls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></include>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_location"
+        app:menu="@menu/activity_location_drawer" />
+
+    <ListView android:id="@+id/nav_options"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:choiceMode="singleChoice"
+        android:divider="#637bff"
+        android:dividerHeight="1dp"
+        android:background="#111"/>
+
+
+</android.support.v4.widget.DrawerLayout>

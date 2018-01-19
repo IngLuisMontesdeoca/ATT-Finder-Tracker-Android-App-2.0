@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorPrimaryDark">@color/color_main_dark</item>
+        <item name="colorAccent">@color/color_main</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:navigationBarColor">@color/color_main_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="login_footer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="login_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">50dp</item>
+        <item name="android:textColor">@color/color_main_background</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily"></item>
+    </style>
+    <style name="login_sub_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/color_main_background</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="login_title">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="login_btn_login">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/color_main</item>
+        <item name="android:colorActivatedHighlight">@color/color_main_active</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_btn_registro">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:background">@color/color_main_background</item>
+        <item name="android:colorActivatedHighlight">@color/color_main_active_light</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="login_btn_registro_background">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:background">@color/color_main</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_txt_password">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:imeOptions">actionUnspecified</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+    <style name="login_txt_email">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/prompt_email</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+    <style name="login_txt_recuperar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_main_background</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">@string/action_recovery</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Localizacion" android:icon="@drawable/ic_setting_light">
+        <menu>
+            <item
+                android:id="@+id/loc_equipos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Equipos" />
+            <item
+                android:id="@+id/loc_grupos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grupos" />
+        </menu>
+    </item>
+
+    <item android:title="Geoelementos" android:icon="@drawable/ic_setting_light">
+        <menu>
+            <item
+                android:id="@+id/geo_poi"
+                android:icon="@drawable/ic_menu_send"
+                android:title="POIs" />
+            <item
+                android:id="@+id/geo_geoc"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Geocercas" />
+            <item
+                android:id="@+id/geo_geor"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Georutas" />
+        </menu>
+    </item>
+    <!--
+    <item android:title="Configuracion"  android:icon="@drawable/ic_setting_light">
+        <menu>
+            <item
+                android:id="@+id/con_inf"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Editar mi informacion" />
+            <item
+                android:id="@+id/con_equ"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Equipos" />
+            <item
+                android:id="@+id/geo_gru"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grupos" />
+            <item
+                android:id="@+id/geo_grur"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grupos de rastreo" />
+            <item
+                android:id="@+id/geo_usu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Usuarios delegados" />
+        </menu>
+    </item>
+    -->
+
+</menu>
